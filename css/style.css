@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #d7dbde;
+}
+
+.menuItem {
+    display: inline-block;
+    margin-inline: 10px;
+    margin-block: 20px;
+
+}
+
+.menuItem a {
+    color: black;
+    text-decoration: none;
+}
+
+.menuItem a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+
+.logo {
+    width: 100px;
+
+}
+
+.logoConteiner {
+
+    display: flex;
+    justify-content: end;
+}
+
+/* BIENVENIDOS */
+
+.fuentebienvenidos {
+
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    width: 600;
+}
+
+.bienvenidos {
+    background-image: url("/imagenes/edificios-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bienvenidos h1 {
+    color: black;
+    background-color: rgba(233, 225, 225, 0.062);
+    padding-inline: 6px;
+}
+
+.fuentetext {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    width: 400;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.bienvenidostext {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionPropiedadesDestacadas {
+    padding: 40px;
+}
+
+.sectionPropiedadesDestacadas {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/* INMUEBLES DESTACADOS*/
+
+.sectionPropiedadesDestacadas {
+    margin-top: 10px;
+
+}
+
+.tituloCartasIndex {
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgba(17, 91, 17, 0.862);
+
+
+}
+
+.tituloCartasIndex {
+    height: 80px;
+    padding-inline: 20px;
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fuenteprop {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+.propiedadesDestacadas {
+    width: 400px;
+    background-color: #d7dbde;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.oficinaImagen {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 450px;
+}
+
+.oficinaTitulo {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.oficinaParrafo {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* */
+
+.wpp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+
+}
+
+
+
+/******* PROPIEDADES *******/
+
+.tituloPropiedades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(159, 10, 10);
+
+}
+
+.conteinerCarousel {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.imagenCarrusel {
+    width: 100%;
+    height: 400px;
+
+}
+
+.infoCarrusel {
+
+
+    flex-basis: calc(50% - 90px);
+
+
+}
+
+.imagenContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+/***** EMPRESA ******/
+
+.equipoPuebla {
+    display: flex;
+    justify-content: center;
+}
+
+.familiaPueblaTitulo {
+    color: rgba(17, 91, 17, 0.862);
+    ;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-top: 30px;
+
+}
+
+.familiaPuebla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.familiaPueblaTextoContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.familiaPueblaTexto {
+    font-size: 20px;
+    font-weight: 400;
+    padding-inline: 60px;
+    padding-top: 25px;
+}
+
+.nuestroEquipo {
+    display: flex;
+    justify-content: center;
+    color: rgba(17, 91, 17, 0.862);
+    ;
+}
+
+.nuestrosAsesores {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cartaAsesores {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 40px;
+}
+
+.asesores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.asesoresImagen {
+    width: 165px;
+    height: 164px;
+    border-radius: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+
+}
+
+.nombreAsesor {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.infoAsesores {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*********TASACIONES*******/
+
+.form__body {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#1b3605 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
+
+.form{
+    display: flex;
+    max-width: 100vh;
+    flex-direction: column;
+    
+}
+
+.form__tasaciones{
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 4.5em 3em;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
+}
