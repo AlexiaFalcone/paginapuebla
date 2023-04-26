@@ -298,7 +298,33 @@
     display: flex;
     max-width: 100vh;
     flex-direction: column;
+    justify-content: center;
     
+}
+
+.form__text__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.form__title{
+    color: rgb(159, 10, 10);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.form__text{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-bottom: 6px;
+
 }
 
 .form__tasaciones{
@@ -309,4 +335,96 @@
     padding: 4.5em 3em;
     border-radius: 15px;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.form__tipoPropiedades{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.form__propiedades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form__group{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.button__conteiner{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/********* FOOTER ********/
+
+.footerPuebla {
+    width: 100%;
+   
+    background-color: #f8f8f8dc ;
+    
+}
+
+.logoConteiner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.imagenLogo{
+    width: 140px;
+    height: 90px;
+}
+
+.pieDePagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navFooter{
+    display: inline;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.item{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.infoFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.direccionFooter{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.whatsappFooter{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
 }
