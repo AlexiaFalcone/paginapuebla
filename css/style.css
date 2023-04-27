@@ -80,22 +80,15 @@
     justify-content: center;
 }
 
-.sectionPropiedadesDestacadas {
-    padding: 40px;
-}
 
 .sectionPropiedadesDestacadas {
-
     display: flex;
     justify-content: space-around;
+    padding: 40px;
+    margin-top: 10px;
 }
 
 /* INMUEBLES DESTACADOS*/
-
-.sectionPropiedadesDestacadas {
-    margin-top: 10px;
-
-}
 
 .tituloCartasIndex {
     padding: 20px;
@@ -415,13 +408,13 @@
 }
 
 .contacto__info h2 {
-    color:  rgba(17, 91, 17, 0.862);
+    color: rgba(17, 91, 17, 0.862);
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
 }
 
-.contacto__info p{
+.contacto__info p {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -489,5 +482,97 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+
+}
+
+
+/*********MEDIA QUERIES*******/
+
+@media screen and (max-width: 600px) {
+
+    /********* INDEX ********/
+
+    .fuentebienvenidos {
+
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        width: 600;
+    }
+
+    .fuentetext {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        width: 400;
+        color: rgba(0, 0, 0, 0.877);
+    }
+
+    .fuenteprop {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+    
+    }
+
+
+
+    .sectionPropiedadesDestacadas {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+    }
+
+    .propiedadesDestacadas {
+        background-color: rgba(255, 255, 255, 0.965);
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+
+    /******* CONTACTOS *******/
+
+    .contacto__conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .form__contacto{
+        margin-top: 20px;
+    }
+
+    .contacto__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contacto__info h2 {
+        color: rgba(17, 91, 17, 0.862);
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    
+    .contacto__info p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .form__group__contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+    
+    }
+
 
 }
