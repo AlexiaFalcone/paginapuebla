@@ -1,0 +1,95 @@
+
+.sectionPropiedadesDestacadas {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-top: 10px;
+
+
+    .propiedadesDestacadas {
+        width: 400px;
+        background-color: #d7dbde;
+        padding: 10px;
+        border-radius: 10px;
+        margin-block: 35px;
+      
+       
+
+
+        .oficinaImagen {
+        width: 100%;
+        margin-bottom: 5px;
+        height: 450px;
+        border-radius: 10px;
+        }
+
+        .tituloCartasConteiner{
+            display: flex;
+            justify-content: center;
+            margin-block: 5px;
+
+            .oficinaTitulo {
+                font-size: 20px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                color:rgba(17, 91, 17, 0.862); ;
+                margin-bottom: 5px;
+            }
+        }
+      
+        
+        .oficinaParrafo {
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buttonConteiner{
+            display: flex;
+            justify-content: center;
+            
+
+            .oficinaBoton{
+                font-family: 'Poppins', sans-serif;
+                padding-block: 2px;
+                padding-inline: 2px;
+                border-radius: 7px;
+            }
+        }
+    }
+
+}
+
+.tituloCartasIndex {
+    font-size: 25px;
+    background-color: rgba(17, 91, 17, 0.862);
+    height: 80px;
+    padding-inline: 20px;
+    padding-block: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .fuenteprop {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: white;
+    
+    }
+}
+
+/**** WHATSAPP ****/
+
+.wpp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+
+}

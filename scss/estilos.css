@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #d7dbde;
+}
+.navbar .logoImagen {
+  width: 100px;
+}
+.navbar .logoConteiner {
+  display: flex;
+  justify-content: end;
+}
+.navbar .logoConteiner .menuItem {
+  display: inline-block;
+}
+.navbar .logoConteiner .menuItem a {
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  width: 400;
+}
+.navbar .logoConteiner .menuItem a:hover {
+  text-decoration: underline;
+}
+
+.bienvenidos {
+  background-image: url("/imagenes/edificios-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bienvenidos .bienvenidosText {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  width: 600;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.126);
+  padding-inline: 6px;
+}
+.bienvenidos .fuenteText {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  width: 400;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.sectionPropiedadesDestacadas {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  margin-top: 10px;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas {
+  width: 400px;
+  background-color: #d7dbde;
+  padding: 10px;
+  border-radius: 10px;
+  margin-block: 35px;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas .oficinaImagen {
+  width: 100%;
+  margin-bottom: 5px;
+  height: 450px;
+  border-radius: 10px;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas .tituloCartasConteiner {
+  display: flex;
+  justify-content: center;
+  margin-block: 5px;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas .tituloCartasConteiner .oficinaTitulo {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgba(17, 91, 17, 0.862);
+  margin-bottom: 5px;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas .oficinaParrafo {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas .buttonConteiner {
+  display: flex;
+  justify-content: center;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas .buttonConteiner .oficinaBoton {
+  font-family: "Poppins", sans-serif;
+  padding-block: 2px;
+  padding-inline: 2px;
+  border-radius: 7px;
+}
+
+.tituloCartasIndex {
+  font-size: 25px;
+  background-color: rgba(17, 91, 17, 0.862);
+  height: 80px;
+  padding-inline: 20px;
+  padding-block: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tituloCartasIndex .fuenteprop {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+/**** WHATSAPP ****/
+.wpp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+}
+
+.tituloPropiedades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(159, 10, 10);
+  margin-block: 40px;
+}
+
+.conteinerCarousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.conteinerCarousel .infoCarrusel {
+  flex-basis: calc(50% - 90px);
+  margin: auto;
+  width: 100%;
+  max-width: 850px;
+  padding: 4.5em 3em;
+  border-radius: 15px;
+  box-shadow: 3.5px 5px rgba(0, 0, 0, 0.261);
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.conteinerCarousel .infoCarrusel .imagenContenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteinerCarousel .infoCarrusel .imagenCarrusel {
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+}
+.conteinerCarousel .infoCarrusel .oficina__alberti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 20px;
+}
+.conteinerCarousel .infoCarrusel .oficina__alberti .oficina__text__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+.conteinerCarousel .infoCarrusel .oficina__alberti .oficina__text__conteiner .oficinaAlbertiTitulo {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.conteinerCarousel .infoCarrusel .oficina__alberti .oficina__text__conteiner .oficinaAlbertiText {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.conteinerCarousel .infoCarrusel .oficina__alberti .button__conteiner {
+  display: flex;
+  justify-content: center;
+}
+.conteinerCarousel .infoCarrusel .oficina__alberti .button__conteiner .boton__propiedades {
+  margin-block: 7px;
+  margin-inline: 7px;
+  font-family: "Poppins", sans-serif;
+}
+
+.equipoPuebla {
+  display: flex;
+  justify-content: center;
+}
+
+.familiaPuebla {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.familiaPuebla .familiaPueblaTitulo {
+  color: rgba(17, 91, 17, 0.862);
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+.familiaPuebla .familiaPueblaTextoContenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.familiaPuebla .familiaPueblaTextoContenedor .familiaPueblaTexto {
+  font-size: 20px;
+  font-weight: 400;
+  padding-inline: 60px;
+  padding-top: 25px;
+}
+
+.nuestroEquipo {
+  display: flex;
+  justify-content: center;
+  color: rgba(17, 91, 17, 0.862);
+}
+
+.nuestrosAsesores {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.cartaAsesores {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 40px;
+}
+.cartaAsesores .asesores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.cartaAsesores .asesores .asesoresImagen {
+  width: 165px;
+  height: 164px;
+  border-radius: 150px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+.cartaAsesores .asesores .nombreAsesor {
+  font-size: 16px;
+  font-weight: 700;
+}
+.cartaAsesores .asesores .infoAsesores {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form__body {
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#1b3605 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+}
+
+.form__tasaciones {
+  background-color: #fff;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 4.5em 3em;
+  border-radius: 15px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.form__tasaciones .form {
+  display: flex;
+  max-width: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.form__tasaciones .form .form__text__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__tasaciones .form .form__text__title .form__title {
+  color: rgb(159, 10, 10);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.form__tasaciones .form .form__text__title .form__text {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-bottom: 6px;
+}
+
+.form__container .form__propiedades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form__container .form__propiedades .form__tipoPropiedades {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.form__container .form__group {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 100%;
+}
+.form__container .button__conteiner {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.contacto__conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.contacto__conteiner .contacto__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.contacto__conteiner .contacto__info .h2 {
+  color: rgba(17, 91, 17, 0.862);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.contacto__conteiner .contacto__info .p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.contacto__conteiner .form__contacto__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.contacto__conteiner .form__group__contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.contacto__conteiner .form__group__contacto .text__area {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.footerPuebla {
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgba(248, 248, 248, 0.862745098);
+}
+.footerPuebla .pieDePagina {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footerPuebla .pieDePagina .logoConteiner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.footerPuebla .pieDePagina .logoConteiner .imagenLogo {
+  width: 140px;
+  height: 90px;
+}
+.footerPuebla .pieDePagina .navFooter {
+  display: inline;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.footerPuebla .pieDePagina .navFooter .item {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+.footerPuebla .pieDePagina .infoFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.footerPuebla .pieDePagina .infoFooter .direccionFooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.footerPuebla .pieDePagina .infoFooter .whatsappFooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  /********* INDEX ********/
+  .bienvenidosText {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    width: 600;
+  }
+  .fuenteText {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    width: 400;
+    color: rgba(0, 0, 0, 0.877);
+  }
+  .fuenteprop {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  .sectionPropiedadesDestacadas {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+  }
+  .sectionPropiedadesDestacadas .propiedadesDestacadas {
+    background-color: rgba(255, 255, 255, 0.965);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  /******* CONTACTOS *******/
+  .contacto__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .contacto__conteiner .form__contacto {
+    margin-top: 20px;
+  }
+  .contacto__conteiner .form__contacto .contacto__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto__conteiner .form__contacto .contacto__info h2 {
+    color: rgba(17, 91, 17, 0.862);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .contacto__conteiner .form__contacto .contacto__info p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .contacto__conteiner .form__contacto .form__group__contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=estilos.css.map */
