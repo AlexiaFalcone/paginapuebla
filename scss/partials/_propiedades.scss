@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: rgb(159, 10, 10);
     margin-block: 40px;
 
@@ -49,38 +51,31 @@
             align-content: space-around;
             margin-top: 20px;
 
-            .oficina__text__conteiner{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-content: space-around;
 
-                .oficinaAlbertiTitulo {
-                    color: black;
-                    font-family: 'Poppins', sans-serif;
-                    font-weight: 700;
-                    font-size: 1.4rem;
-    
-                }
-    
-                .oficinaAlbertiText {
-                    color: black;
-                    font-family: 'Poppins', sans-serif;
-                    font-weight: 500;
-                    font-size: 1.1rem;
-                }
+            .oficinaAlbertiTitulo {
+                color: rgba(17, 91, 17, 0.862);
+                ;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
 
             }
 
-            
+            .oficinaAlbertiText {
+                color: rgba(0, 0, 0, 0.814);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+
 
             .button__conteiner {
                 display: flex;
                 justify-content: center;
 
                 .boton__propiedades {
-                    margin-block: 7px;
-                    margin-inline: 7px;
+                    padding-block: 4px;
+                    padding-inline: 4px;
                     font-family: 'Poppins', sans-serif;
 
 
@@ -88,8 +83,206 @@
             }
 
         }
+
+        .oficina__rondeau {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+            margin-top: 20px;
+
+
+            .oficinaRondeauTitulo {
+                color: rgba(17, 91, 17, 0.862);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
+
+            }
+
+            .oficinaRondeauText {
+                color: rgba(0, 0, 0, 0.814);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+
+
+            .button__conteiner {
+                display: flex;
+                justify-content: center;
+
+                .boton__propiedades {
+                    padding-block: 4px;
+                    padding-inline: 4px;
+                    font-family: 'Poppins', sans-serif;
+
+
+                }
+            }
+
+        }
+
+        .deposito__amancioAlcorta {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+            margin-top: 20px;
+
+
+            .depositoAmancioAlcortaTitulo {
+                color: rgba(17, 91, 17, 0.862);
+                ;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
+
+            }
+
+            .depositoAmancioAlcortaText {
+                color: rgba(0, 0, 0, 0.814);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+
+
+            .button__conteiner {
+                display: flex;
+                justify-content: center;
+
+                .boton__propiedades {
+                    padding-block: 4px;
+                    padding-inline: 4px;
+                    font-family: 'Poppins', sans-serif;
+
+
+                }
+            }
+
+        }
+
+        .deposito__corrales {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+            margin-top: 20px;
+
+
+            .depositoCorralesTitulo {
+                color: rgba(17, 91, 17, 0.862);
+                ;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
+
+            }
+
+            .depositoCorralesText {
+                color: rgba(0, 0, 0, 0.814);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+
+
+            .button__conteiner {
+                display: flex;
+                justify-content: center;
+
+                .boton__propiedades {
+                    padding-block: 4px;
+                    padding-inline: 4px;
+                    font-family: 'Poppins', sans-serif;
+
+
+                }
+            }
+
+        }
+
+        .local__almafuerte {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+            margin-top: 20px;
+
+
+            .localAlmafuerteTitulo {
+                color: rgba(17, 91, 17, 0.862);
+                ;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
+
+            }
+
+            .localAlmarfuerteText {
+                color: rgba(0, 0, 0, 0.814);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+
+
+            .button__conteiner {
+                display: flex;
+                justify-content: center;
+
+                .boton__propiedades {
+                    padding-block: 4px;
+                    padding-inline: 4px;
+                    font-family: 'Poppins', sans-serif;
+
+
+                }
+            }
+
+        }
+
+        .local__rondeau {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+            margin-top: 20px;
+
+
+            .localRondeauTitulo {
+                color: rgba(17, 91, 17, 0.862);
+                ;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
+
+            }
+
+            .localRondeauText {
+                color: rgba(0, 0, 0, 0.814);
+                font-family: 'Poppins', sans-serif;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+
+
+            .button__conteiner {
+                display: flex;
+                justify-content: center;
+
+                .boton__propiedades {
+                    padding-block: 4px;
+                    padding-inline: 4px;
+                    font-family: 'Poppins', sans-serif;
+
+
+                }
+            }
+
+        }
+
+
     }
-
-
-
 }

@@ -131,10 +131,16 @@
   width: 100px;
 }
 
+
+/********* PROPIEDADES ***************/
+
+
 .tituloPropiedades {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: rgb(159, 10, 10);
   margin-block: 40px;
 }
@@ -172,20 +178,14 @@
   align-content: space-around;
   margin-top: 20px;
 }
-.conteinerCarousel .infoCarrusel .oficina__alberti .oficina__text__conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: space-around;
-}
-.conteinerCarousel .infoCarrusel .oficina__alberti .oficina__text__conteiner .oficinaAlbertiTitulo {
-  color: black;
+.conteinerCarousel .infoCarrusel .oficina__alberti .oficinaAlbertiTitulo {
+  color: rgba(17, 91, 17, 0.862);
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
 }
-.conteinerCarousel .infoCarrusel .oficina__alberti .oficina__text__conteiner .oficinaAlbertiText {
-  color: black;
+.conteinerCarousel .infoCarrusel .oficina__alberti .oficinaAlbertiText {
+  color: rgba(0, 0, 0, 0.814);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -195,8 +195,148 @@
   justify-content: center;
 }
 .conteinerCarousel .infoCarrusel .oficina__alberti .button__conteiner .boton__propiedades {
-  margin-block: 7px;
-  margin-inline: 7px;
+  padding-block: 4px;
+  padding-inline: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.conteinerCarousel .infoCarrusel .oficina__rondeau {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 20px;
+}
+.conteinerCarousel .infoCarrusel .oficina__rondeau .oficinaRondeauTitulo {
+  color: rgba(17, 91, 17, 0.862);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.conteinerCarousel .infoCarrusel .oficina__rondeau .oficinaRondeauText {
+  color: rgba(0, 0, 0, 0.814);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.conteinerCarousel .infoCarrusel .oficina__rondeau .button__conteiner {
+  display: flex;
+  justify-content: center;
+}
+.conteinerCarousel .infoCarrusel .oficina__rondeau .button__conteiner .boton__propiedades {
+  padding-block: 4px;
+  padding-inline: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.conteinerCarousel .infoCarrusel .deposito__amancioAlcorta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 20px;
+}
+.conteinerCarousel .infoCarrusel .deposito__amancioAlcorta .depositoAmancioAlcortaTitulo {
+  color: rgba(17, 91, 17, 0.862);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.conteinerCarousel .infoCarrusel .deposito__amancioAlcorta .depositoAmancioAlcortaText {
+  color: rgba(0, 0, 0, 0.814);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.conteinerCarousel .infoCarrusel .deposito__amancioAlcorta .button__conteiner {
+  display: flex;
+  justify-content: center;
+}
+.conteinerCarousel .infoCarrusel .deposito__amancioAlcorta .button__conteiner .boton__propiedades {
+  padding-block: 4px;
+  padding-inline: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.conteinerCarousel .infoCarrusel .deposito__corrales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 20px;
+}
+.conteinerCarousel .infoCarrusel .deposito__corrales .depositoCorralesTitulo {
+  color: rgba(17, 91, 17, 0.862);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.conteinerCarousel .infoCarrusel .deposito__corrales .depositoCorralesText {
+  color: rgba(0, 0, 0, 0.814);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.conteinerCarousel .infoCarrusel .deposito__corrales .button__conteiner {
+  display: flex;
+  justify-content: center;
+}
+.conteinerCarousel .infoCarrusel .deposito__corrales .button__conteiner .boton__propiedades {
+  padding-block: 4px;
+  padding-inline: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.conteinerCarousel .infoCarrusel .local__almafuerte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 20px;
+}
+.conteinerCarousel .infoCarrusel .local__almafuerte .localAlmafuerteTitulo {
+  color: rgba(17, 91, 17, 0.862);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.conteinerCarousel .infoCarrusel .local__almafuerte .localAlmarfuerteText {
+  color: rgba(0, 0, 0, 0.814);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.conteinerCarousel .infoCarrusel .local__almafuerte .button__conteiner {
+  display: flex;
+  justify-content: center;
+}
+.conteinerCarousel .infoCarrusel .local__almafuerte .button__conteiner .boton__propiedades {
+  padding-block: 4px;
+  padding-inline: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.conteinerCarousel .infoCarrusel .local__rondeau {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin-top: 20px;
+}
+.conteinerCarousel .infoCarrusel .local__rondeau .localRondeauTitulo {
+  color: rgba(17, 91, 17, 0.862);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.conteinerCarousel .infoCarrusel .local__rondeau .localRondeauText {
+  color: rgba(0, 0, 0, 0.814);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.conteinerCarousel .infoCarrusel .local__rondeau .button__conteiner {
+  display: flex;
+  justify-content: center;
+}
+.conteinerCarousel .infoCarrusel .local__rondeau .button__conteiner .boton__propiedades {
+  padding-block: 4px;
+  padding-inline: 4px;
   font-family: "Poppins", sans-serif;
 }
 
