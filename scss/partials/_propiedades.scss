@@ -1,12 +1,17 @@
 .tituloPropiedades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: rgb(159, 10, 10);
-    margin-block: 40px;
 
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        background-color: rgba(159, 10, 10, 0.63);
+        color: white;
+        padding-block: 7px;
+        margin-block: 40px;
+    }
+  
 
 }
 
@@ -62,7 +67,7 @@
             }
 
             .oficinaAlbertiText {
-                color: rgba(0, 0, 0, 0.814);
+                color: rgba(0, 0, 0, 0.671);
                 font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 1.1rem;
@@ -101,7 +106,7 @@
             }
 
             .oficinaRondeauText {
-                color: rgba(0, 0, 0, 0.814);
+                color: rgba(0, 0, 0, 0.671);
                 font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 1.1rem;
@@ -141,7 +146,7 @@
             }
 
             .depositoAmancioAlcortaText {
-                color: rgba(0, 0, 0, 0.814);
+                color: rgba(0, 0, 0, 0.671);
                 font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 1.1rem;
@@ -181,7 +186,7 @@
             }
 
             .depositoCorralesText {
-                color: rgba(0, 0, 0, 0.814);
+                color: rgba(0, 0, 0, 0.671);
                 font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 1.1rem;
@@ -220,8 +225,8 @@
 
             }
 
-            .localAlmarfuerteText {
-                color: rgba(0, 0, 0, 0.814);
+            .localAlmafuerteText {
+                color: rgba(0, 0, 0, 0.671);
                 font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 1.1rem;
@@ -261,7 +266,7 @@
             }
 
             .localRondeauText {
-                color: rgba(0, 0, 0, 0.814);
+                color: rgba(0, 0, 0, 0.671);
                 font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 1.1rem;

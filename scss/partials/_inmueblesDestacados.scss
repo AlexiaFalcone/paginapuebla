@@ -12,6 +12,12 @@
         padding: 10px;
         border-radius: 10px;
         margin-block: 35px;
+        transition: 0.8s;
+
+        &:hover{
+            transform: scale(1.1) translateY(-2px);
+        }
+        
       
        
 
@@ -27,6 +33,7 @@
             display: flex;
             justify-content: center;
             margin-block: 5px;
+            
 
             .oficinaTitulo {
                 font-size: 20px;

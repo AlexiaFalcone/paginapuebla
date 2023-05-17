@@ -67,6 +67,10 @@
   padding: 10px;
   border-radius: 10px;
   margin-block: 35px;
+  transition: 0.8s;
+}
+.sectionPropiedadesDestacadas .propiedadesDestacadas:hover {
+  transform: scale(1.1) translateY(-2px);
 }
 .sectionPropiedadesDestacadas .propiedadesDestacadas .oficinaImagen {
   width: 100%;
@@ -131,17 +135,15 @@
   width: 100px;
 }
 
-
-/********* PROPIEDADES ***************/
-
-
-.tituloPropiedades {
+.tituloPropiedades h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  color: rgb(159, 10, 10);
+  font-weight: 500;
+  background-color: rgba(159, 10, 10, 0.63);
+  color: white;
+  padding-block: 7px;
   margin-block: 40px;
 }
 
@@ -185,7 +187,7 @@
   font-size: 1.4rem;
 }
 .conteinerCarousel .infoCarrusel .oficina__alberti .oficinaAlbertiText {
-  color: rgba(0, 0, 0, 0.814);
+  color: rgba(0, 0, 0, 0.671);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -213,7 +215,7 @@
   font-size: 1.4rem;
 }
 .conteinerCarousel .infoCarrusel .oficina__rondeau .oficinaRondeauText {
-  color: rgba(0, 0, 0, 0.814);
+  color: rgba(0, 0, 0, 0.671);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -241,7 +243,7 @@
   font-size: 1.4rem;
 }
 .conteinerCarousel .infoCarrusel .deposito__amancioAlcorta .depositoAmancioAlcortaText {
-  color: rgba(0, 0, 0, 0.814);
+  color: rgba(0, 0, 0, 0.671);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -269,7 +271,7 @@
   font-size: 1.4rem;
 }
 .conteinerCarousel .infoCarrusel .deposito__corrales .depositoCorralesText {
-  color: rgba(0, 0, 0, 0.814);
+  color: rgba(0, 0, 0, 0.671);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -296,8 +298,8 @@
   font-weight: 700;
   font-size: 1.4rem;
 }
-.conteinerCarousel .infoCarrusel .local__almafuerte .localAlmarfuerteText {
-  color: rgba(0, 0, 0, 0.814);
+.conteinerCarousel .infoCarrusel .local__almafuerte .localAlmafuerteText {
+  color: rgba(0, 0, 0, 0.671);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -325,7 +327,7 @@
   font-size: 1.4rem;
 }
 .conteinerCarousel .infoCarrusel .local__rondeau .localRondeauText {
-  color: rgba(0, 0, 0, 0.814);
+  color: rgba(0, 0, 0, 0.671);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
