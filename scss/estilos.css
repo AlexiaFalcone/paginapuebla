@@ -29,7 +29,7 @@
 }
 
 .bienvenidos {
-  background-image: url("/imagenes/edificios-1.jpg");
+  background-image: url("../imagenes/edificios-1.jpg");
   background-size: cover;
   background-position: center;
   height: 70vh;
@@ -376,6 +376,7 @@
   display: flex;
   justify-content: center;
   color: rgba(17, 91, 17, 0.862);
+  margin-top: 50px;
 }
 
 .nuestrosAsesores {
@@ -383,12 +384,14 @@
   justify-content: center;
   font-size: 25px;
   font-weight: 500;
+  margin-bottom: 50px;
 }
 
 .cartaAsesores {
   display: flex;
   justify-content: space-between;
   margin-inline: 40px;
+  margin-bottom: 60px;
 }
 .cartaAsesores .asesores {
   display: flex;
