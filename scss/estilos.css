@@ -398,6 +398,10 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  transition: 0.8s;
+}
+.cartaAsesores .asesores:hover {
+  transform: scale(1.1) translateY(-2px);
 }
 .cartaAsesores .asesores .asesoresImagen {
   width: 165px;
@@ -494,13 +498,13 @@
   align-items: center;
   gap: 20px;
 }
-.contacto__conteiner .contacto__info .h2 {
+.contacto__conteiner .contacto__info h2 {
   color: rgba(17, 91, 17, 0.862);
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
 }
-.contacto__conteiner .contacto__info .p {
+.contacto__conteiner .contacto__info .datos_puebla {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 500;
@@ -526,6 +530,7 @@
 .contacto__conteiner .form__group__contacto .text__area {
   width: 300px;
   height: 100px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
