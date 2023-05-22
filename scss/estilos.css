@@ -612,6 +612,23 @@
     margin-bottom: 40px;
     margin-top: 40px;
   }
+  /********PROPIEDADES************/
+  .conteinerCarousel {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+  }
+  /********* EMPRESA **************/
+  .equipoPueblaImagen {
+    max-width: 100%;
+  }
+  .cartaAsesores {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+  }
   /******* CONTACTOS *******/
   .contacto__conteiner {
     display: flex;
@@ -645,5 +662,11 @@
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 400;
+  }
+  /******FOOTER********/
+  .pieDePagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=estilos.css.map */

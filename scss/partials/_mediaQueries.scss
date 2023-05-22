@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 600px) {
 
     /********* INDEX ********/
@@ -22,7 +21,7 @@
         font-size: 1.5rem;
         font-weight: 600;
         color: white;
-    
+
     }
 
 
@@ -32,6 +31,7 @@
         flex-direction: column;
         align-content: space-between;
         align-items: center;
+
         .propiedadesDestacadas {
             background-color: rgba(255, 255, 255, 0.965);
             box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
@@ -40,7 +40,35 @@
         }
     }
 
-    
+
+    /********PROPIEDADES************/
+
+    .conteinerCarousel {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+
+    }
+
+
+    /********* EMPRESA **************/
+
+    .equipoPueblaImagen {
+        max-width: 100%;
+
+    }
+
+    .cartaAsesores {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+
+    }
+
+
+
 
 
     /******* CONTACTOS *******/
@@ -51,27 +79,28 @@
         justify-content: space-around;
         margin-top: 50px;
 
-        .form__contacto{
+        .form__contacto {
             margin-top: 20px;
 
-            .contacto__info{
+            .contacto__info {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                
+
                 h2 {
                     color: rgba(17, 91, 17, 0.862);
                     font-family: 'Poppins', sans-serif;
                     font-size: 1.4rem;
                     font-weight: 700;
                 }
-                
+
                 p {
                     font-family: 'Poppins', sans-serif;
                     font-size: 1.1rem;
                     font-weight: 500;
                 }
             }
+
             .form__group__contacto {
                 display: flex;
                 flex-direction: column;
@@ -79,18 +108,25 @@
                 font-family: 'Poppins', sans-serif;
                 font-size: 1rem;
                 font-weight: 400;
-            
+
             }
         }
 
     }
 
-   
 
-   
-  
+    /******FOOTER********/
 
-  
+    .pieDePagina {
+        display: grid;
+        grid-column: auto;
+    }
+
+    
+
+
+
+
 
 
 }
