@@ -418,20 +418,14 @@
   font-weight: 600;
 }
 
-.form__body {
-  background-color: #e5e5f7;
-  background-image: radial-gradient(#1b3605 0.5px, #e5e5f7 0.5px);
-  background-size: 10px 10px;
-}
-
 .form__tasaciones {
-  background-color: #fff;
+  background-color: rgba(231, 231, 203, 0.419);
   margin: auto;
   width: 90%;
   max-width: 500px;
   padding: 4.5em 3em;
   border-radius: 15px;
-  box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.124);
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -458,42 +452,50 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
-  padding-bottom: 6px;
 }
 .form__tasaciones .form .form__text__prop {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.form__tasaciones .form .form__text__prop p {
+.form__tasaciones .form .form__text__prop .text__prop {
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   padding-bottom: 6px;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 
-.form__container .form__propiedades {
+.form__container .form__tipoPropiedades .form__propiedades {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.form__container .form__propiedades .form__tipoPropiedades p {
-  color: black;
+.form__container .form__tipoPropiedades .form__propiedades .tipo__prop {
+  color: rgba(9, 9, 9, 0.885);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
-.form__container .form__propiedades .form__tipoPropiedades .form__desplegable .opciones {
-  color: black;
+.form__container .form__tipoPropiedades .form__propiedades .tipo__prop2 {
+  color: rgba(9, 9, 9, 0.885);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.form__container .form__tipoPropiedades .form__propiedades .select__estilos {
+  padding-block: 4px;
+  padding-inline: 3px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(9, 9, 9, 0.885);
 }
 .form__container .form__group {
-  position: relative;
-  --color: rgba(9, 9, 9, 0.592);
+  color: rgba(9, 9, 9, 0.885);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -508,7 +510,17 @@
 .form__container .button__conteiner {
   display: flex;
   justify-content: center;
-  padding-top: 5px;
+  margin-top: 20px;
+}
+.form__container .button__conteiner .form__submit {
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2.5px rgba(0, 0, 0, 0.242);
+  color: rgba(9, 9, 9, 0.889);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .contacto__conteiner {
