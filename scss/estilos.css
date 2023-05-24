@@ -158,8 +158,8 @@
   width: 100%;
   max-width: 850px;
   padding: 4.5em 3em;
-  border-radius: 15px;
-  box-shadow: 3.5px 5px rgba(0, 0, 0, 0.261);
+  border-radius: 3px;
+  box-shadow: 1.5px 2px rgba(0, 0, 0, 0.364);
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -200,6 +200,9 @@
   padding-block: 4px;
   padding-inline: 4px;
   font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.835);
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.847);
 }
 .conteinerCarousel .infoCarrusel .oficina__rondeau {
   display: flex;
@@ -228,6 +231,9 @@
   padding-block: 4px;
   padding-inline: 4px;
   font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.835);
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.847);
 }
 .conteinerCarousel .infoCarrusel .deposito__amancioAlcorta {
   display: flex;
@@ -256,6 +262,9 @@
   padding-block: 4px;
   padding-inline: 4px;
   font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.835);
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.847);
 }
 .conteinerCarousel .infoCarrusel .deposito__corrales {
   display: flex;
@@ -284,6 +293,9 @@
   padding-block: 4px;
   padding-inline: 4px;
   font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.835);
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.847);
 }
 .conteinerCarousel .infoCarrusel .local__almafuerte {
   display: flex;
@@ -312,6 +324,9 @@
   padding-block: 4px;
   padding-inline: 4px;
   font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.835);
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.847);
 }
 .conteinerCarousel .infoCarrusel .local__rondeau {
   display: flex;
@@ -340,6 +355,9 @@
   padding-block: 4px;
   padding-inline: 4px;
   font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.835);
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.847);
 }
 
 .equipoPuebla {
@@ -355,10 +373,11 @@
 }
 .familiaPuebla .familiaPueblaTitulo {
   color: rgba(17, 91, 17, 0.862);
-  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
   font-weight: 700;
   text-decoration: underline;
-  padding-top: 30px;
+  margin-block: 50px;
 }
 .familiaPuebla .familiaPueblaTextoContenedor {
   display: flex;
@@ -366,7 +385,7 @@
   align-items: center;
 }
 .familiaPuebla .familiaPueblaTextoContenedor .familiaPueblaTexto {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
   padding-inline: 60px;
   padding-top: 25px;
@@ -376,22 +395,17 @@
   display: flex;
   justify-content: center;
   color: rgba(17, 91, 17, 0.862);
-  margin-top: 50px;
-}
-
-.nuestrosAsesores {
-  display: flex;
-  justify-content: center;
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-block: 50px;
 }
 
 .cartaAsesores {
   display: flex;
   justify-content: space-between;
-  margin-inline: 40px;
-  margin-bottom: 60px;
+  margin-inline: 60px;
+  margin-bottom: 80px;
 }
 .cartaAsesores .asesores {
   display: flex;

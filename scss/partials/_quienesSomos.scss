@@ -1,4 +1,3 @@
-
 .equipoPuebla {
     display: flex;
     justify-content: center;
@@ -13,23 +12,23 @@
     align-items: center;
 
     .familiaPueblaTitulo {
-        color: rgba(17, 91, 17, 0.862);
-        ;
-        font-size: 30px;
+        color: rgba(17, 91, 17, 0.862);;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem;
         font-weight: 700;
         text-decoration: underline;
-        padding-top: 30px;
-    
+        margin-block: 50px;
+
     }
 
     .familiaPueblaTextoContenedor {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
         .familiaPueblaTexto {
-            font-size: 20px;
+            font-size: 1.2rem;
             font-weight: 400;
             padding-inline: 60px;
             padding-top: 25px;
@@ -44,28 +43,25 @@
     display: flex;
     justify-content: center;
     color: rgba(17, 91, 17, 0.862);
-    margin-top: 50px;
-    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-block: 50px;
+
+
 }
 
-.nuestrosAsesores {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: 500;
-    margin-bottom: 50px;
-}
 
 .cartaAsesores {
     display: flex;
     justify-content: space-between;
-    margin-inline: 40px;
-    margin-bottom: 60px;
+    margin-inline: 60px;
+    margin-bottom: 80px;
 
-    @mixin tamanoFuente ($tamanoFuente, $grosorFuente ){
+    @mixin tamanoFuente ($tamanoFuente, $grosorFuente ) {
         font-size: $tamanoFuente;
         font-weight: $grosorFuente;
-    
+
     }
 
     .asesores {
@@ -85,19 +81,19 @@
             height: 164px;
             border-radius: 150px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
-        
+
         }
 
         .nombreAsesor {
-           @include tamanoFuente(16px,700);
-        
-        .infoAsesores {
-            @include tamanoFuente (14px, 600);
+            @include tamanoFuente(16px, 700);
+
+            .infoAsesores {
+                @include tamanoFuente (14px, 600);
+            }
+
         }
 
     }
-
-}
 
 
 
