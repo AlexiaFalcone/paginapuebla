@@ -45,6 +45,24 @@
             }
         }
 
+        .form__text__prop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: black;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 1rem;
+                padding-bottom: 6px;
+                margin-bottom: 4px;
+
+            }
+
+
+
+        }
 
     }
 }
@@ -57,19 +75,43 @@
         justify-content: center;
 
         .form__tipoPropiedades {
-            color: black;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            font-size: 1rem;
+
+            p {
+                color: black;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 1rem;
+            }
+
+            .form__desplegable {
+
+                .opciones {
+                    color: black;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+
+                }
+            }
         }
     }
 
+
     .form__group {
-        color: black;
+        position: relative;
+        --color: rgba(9, 9, 9, 0.592);
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
         font-size: 1rem;
         width: 100%;
+
+        input {
+            width: 100%;
+        }
+
+        label {
+            margin-top: 8px;
+        }
     }
 
     .button__conteiner {

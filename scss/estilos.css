@@ -460,24 +460,50 @@
   font-size: 1.3rem;
   padding-bottom: 6px;
 }
+.form__tasaciones .form .form__text__prop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__tasaciones .form .form__text__prop p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+}
 
 .form__container .form__propiedades {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.form__container .form__propiedades .form__tipoPropiedades {
+.form__container .form__propiedades .form__tipoPropiedades p {
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
-.form__container .form__group {
+.form__container .form__propiedades .form__tipoPropiedades .form__desplegable .opciones {
   color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.form__container .form__group {
+  position: relative;
+  --color: rgba(9, 9, 9, 0.592);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   width: 100%;
+}
+.form__container .form__group input {
+  width: 100%;
+}
+.form__container .form__group label {
+  margin-top: 8px;
 }
 .form__container .button__conteiner {
   display: flex;
@@ -664,8 +690,21 @@
     font-weight: 400;
   }
   /******FOOTER********/
-  .pieDePagina {
-    display: grid;
-    grid-column: auto;
+  .footerPuebla .pieDePagina {
+    display: flex;
+    justify-content: center;
+  }
+  .footerPuebla .pieDePagina .logoConteiner {
+    display: none;
+  }
+  .footerPuebla .pieDePagina .navFooter {
+    display: none;
+  }
+  .footerPuebla .pieDePagina .infoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 20px;
   }
 }/*# sourceMappingURL=estilos.css.map */

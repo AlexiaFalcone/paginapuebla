@@ -117,13 +117,32 @@
 
     /******FOOTER********/
 
-    .pieDePagina {
-        display: grid;
-        grid-column: auto;
+
+    .footerPuebla{
+
+        .pieDePagina{
+            display: flex;
+            justify-content: center;
+            .logoConteiner{
+                display: none;
+            }
+
+            .navFooter{
+                display: none;
+            }
+
+            .infoFooter {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: space-between;
+                padding-top: 20px;
+                
+            }
+
+        }
     }
-
-    
-
+   
 
 
 
