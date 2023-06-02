@@ -635,16 +635,23 @@
 
 @media screen and (max-width: 600px) {
   /********* INDEX ********/
+  .bienvenidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .bienvenidosText {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     width: 600;
+    margin-inline: 4px;
   }
   .fuenteText {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: "Poppins", sans-serif;
     width: 400;
     color: rgba(0, 0, 0, 0.877);
+    margin-inline: 4px;
   }
   .fuenteprop {
     font-family: "Poppins", sans-serif;
@@ -663,6 +670,13 @@
     box-shadow: 5px 10px rgba(0, 0, 0, 0.261);
     margin-bottom: 40px;
     margin-top: 40px;
+  }
+  /**** WHATSAPP ****/
+  .wpp {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 70px;
   }
   /********PROPIEDADES************/
   .conteinerCarousel {
@@ -687,6 +701,10 @@
     flex-direction: column;
     justify-content: space-around;
     margin-top: 50px;
+  }
+  .contacto__conteiner .contacto__maps .maps {
+    width: 100%;
+    margin-inline: 5px;
   }
   .contacto__conteiner .form__contacto {
     margin-top: 20px;
@@ -714,6 +732,25 @@
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    margin-inline: 5px;
+  }
+  .contacto__conteiner .form__contacto .form__group__contacto .text__area {
+    width: 100%;
+  }
+  .contacto__conteiner .form__contacto .button__conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .contacto__conteiner .form__contacto .button__conteiner .form__submit {
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2.5px rgba(0, 0, 0, 0.242);
+    color: rgba(9, 9, 9, 0.889);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
   }
   /******FOOTER********/
   .footerPuebla .pieDePagina {
